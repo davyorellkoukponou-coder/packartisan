@@ -1,0 +1,15 @@
+# Fichiers temporaires de travail
+fix_chars.py
+create_guide.py
+
+# Bonus non utilisé
+BONUS-Identite-Visuelle.pdf
+BONUS-CANVA-CAPCUT-SCRIPT.md
+bonus-templates/
+
+# Aperçus locaux
+landing-preview.png
+landing-mobile-preview.png
+
+# Ebooks source (ne pas exposer sur Git public)
+product-source/
