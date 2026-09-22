@@ -1,4 +1,15 @@
 // ─────────────────────────────────────────────
+// Facebook Pixel — Track InitiateCheckout
+// ─────────────────────────────────────────────
+document.querySelectorAll('.payment-link').forEach(function(link) {
+  link.addEventListener('click', function() {
+    if (typeof fbq !== 'undefined') {
+      fbq('track', 'InitiateCheckout');
+    }
+  });
+});
+
+// ─────────────────────────────────────────────
 // Compte à rebours — expire à minuit chaque jour
 // ─────────────────────────────────────────────
 (function initCountdown() {
